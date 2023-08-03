@@ -1,0 +1,30 @@
+PODS:
+  - lottie-ios (4.2.0)
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+
+DEPENDENCIES:
+  - lottie-ios
+  - SDWebImage (from `https://github.com/SDWebImage/SDWebImage.git`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  SDWebImage:
+    :git: https://github.com/SDWebImage/SDWebImage.git
+
+CHECKOUT OPTIONS:
+  SDWebImage:
+    :commit: 7e786338451124572e83a3d86c19efd86906d7a1
+    :git: https://github.com/SDWebImage/SDWebImage.git
+
+SPEC CHECKSUMS:
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+
+PODFILE CHECKSUM: 24b939af07782d13986dc94f94f246a4c5957a89
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,6 @@
+framework module Pods_Latest_News_Latest_NewsUITests {
+  umbrella header "Pods-Latest News-Latest NewsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
