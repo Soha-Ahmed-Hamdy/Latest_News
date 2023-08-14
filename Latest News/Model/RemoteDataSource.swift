@@ -14,7 +14,7 @@ protocol RemoteDataSourceProtocol{
 
 class RemoteDataSource: RemoteDataSourceProtocol{
     func getNews(compilitionHandler: @escaping (AllNews?) -> Void) {
-        let url = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2023-06-30&sortBy=publishedAt&apiKey=31a5189a0fe7447b9f0a282ade9120e9")
+        let url = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2023-07-03&sortBy=publishedAt&apiKey=31a5189a0fe7447b9f0a282ade9120e9")
         guard let newUrl = url else {
             return
         }
