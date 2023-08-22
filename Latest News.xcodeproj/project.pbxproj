@@ -240,14 +240,62 @@
 		CF85C2FE2A76E94B0097B152 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CF85C2FF2A76E9730097B152 /* ArticleModel.swift */,
-				CF85C3012A76E9900097B152 /* RemoteDataSource.swift */,
-				CF6BA5212A783E2E00555E6B /* FavouriteModel.swift */,
-				CF6BA5252A78444D00555E6B /* DatabaseHelper.swift */,
-				CF6BA5232A7842BB00555E6B /* LocalNewsModel.swift */,
-				CF6BA5292A7875BD00555E6B /* AllNewsDatabaseHelper.swift */,
+				CF8768F12A958116008EA6CE /* RemoteData */,
+				CF8768F02A9580F9008EA6CE /* LocalData */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CF8768F02A9580F9008EA6CE /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				CF8768F52A958150008EA6CE /* Realm */,
+				CF8768F42A958143008EA6CE /* ModelObject */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
+		CF8768F12A958116008EA6CE /* RemoteData */ = {
+			isa = PBXGroup;
+			children = (
+				CF8768F32A958134008EA6CE /* APISource */,
+				CF8768F22A958127008EA6CE /* ModelObject */,
+			);
+			path = RemoteData;
+			sourceTree = "<group>";
+		};
+		CF8768F22A958127008EA6CE /* ModelObject */ = {
+			isa = PBXGroup;
+			children = (
+				CF85C2FF2A76E9730097B152 /* ArticleModel.swift */,
+			);
+			path = ModelObject;
+			sourceTree = "<group>";
+		};
+		CF8768F32A958134008EA6CE /* APISource */ = {
+			isa = PBXGroup;
+			children = (
+				CF85C3012A76E9900097B152 /* RemoteDataSource.swift */,
+			);
+			path = APISource;
+			sourceTree = "<group>";
+		};
+		CF8768F42A958143008EA6CE /* ModelObject */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BA5212A783E2E00555E6B /* FavouriteModel.swift */,
+				CF6BA5232A7842BB00555E6B /* LocalNewsModel.swift */,
+			);
+			path = ModelObject;
+			sourceTree = "<group>";
+		};
+		CF8768F52A958150008EA6CE /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BA5292A7875BD00555E6B /* AllNewsDatabaseHelper.swift */,
+				CF6BA5252A78444D00555E6B /* DatabaseHelper.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		CFA6A7E82A770AA2000CAF16 /* Utilites */ = {
